@@ -1,0 +1,13 @@
+.structure {
+  display: grid;
+  grid-template-areas: 
+    header
+    cardContainer;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 30rem auto;
+  grid-gap: 20px ;
+  padding: 10px 30px;
+}
